@@ -53,7 +53,7 @@ ORIGIN="${REPOSDIR}/${PRODUCT}.conf"
 WORKDIR="${WORKPREFIX}/${$}"
 
 # Hoplite overrides
-RELEASE="21.1.2.1"
+VERSION="21.1.0.1"
 
 IDENT=$(sysctl -n kern.ident)
 ARCH=$(uname -p)
