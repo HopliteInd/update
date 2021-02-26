@@ -44,6 +44,9 @@ PRODUCT="OPNsense"
 PKG="pkg-static"
 VERSION="20.7.8"
 
+# Hoplite additions
+VERSION="20.7.8.1"
+
 ORIGIN="/usr/local/etc/pkg/repos/${PRODUCT}.conf"
 PENDINGDIR="${WORKPREFIX}/.sets.pending"
 PIPEFILE="${WORKPREFIX}/.upgrade.pipe"
