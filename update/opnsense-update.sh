@@ -51,7 +51,7 @@ LOGFILE="${WORKPREFIX}/.upgrade.log"
 WORKDIR="${WORKPREFIX}/${$}"
 
 # Hoplite overrides
-RELEASE="19.1.10.1"
+VERSION="19.1.10.1"
 
 IDENT=$(sysctl -n kern.ident)
 ARCH=$(uname -p)
