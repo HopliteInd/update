@@ -50,6 +50,9 @@ PIPEFILE="${WORKPREFIX}/.upgrade.pipe"
 LOGFILE="${WORKPREFIX}/.upgrade.log"
 WORKDIR="${WORKPREFIX}/${$}"
 
+# Hoplite addition
+VERSION="19.7.10.1"
+
 IDENT=$(sysctl -n kern.ident)
 ARCH=$(uname -p)
 
