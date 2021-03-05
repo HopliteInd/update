@@ -45,7 +45,7 @@ PKG="pkg-static"
 VERSION="20.7.8"
 
 # Hoplite additions
-VERSION="20.7.8.1"
+VERSION="20.7.8.3"
 
 ORIGIN="/usr/local/etc/pkg/repos/${PRODUCT}.conf"
 PENDINGDIR="${WORKPREFIX}/.sets.pending"
