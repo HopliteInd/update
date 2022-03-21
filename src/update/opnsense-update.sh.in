@@ -52,6 +52,9 @@ LOGFILE="${WORKPREFIX}/.upgrade.log"
 ORIGIN="${REPOSDIR}/${PRODUCT}.conf"
 WORKDIR="${WORKPREFIX}/${$}"
 
+# Hoplite overrides
+RELEASE="21.7.8.1"
+
 IDENT=$(sysctl -n kern.ident)
 ARCH=$(uname -p)
 
